@@ -74,7 +74,9 @@ def catch_check():
             c.delete(egg)
             increase_score(egg_score)
     win.after(100,catch_check)
-
+"""
+ethem
+"""
 def increase_score(points):
     global score , egg_speed , egg_interval
     score += points
